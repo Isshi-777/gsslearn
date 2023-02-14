@@ -225,6 +225,24 @@
       },
       "url": "https://packages.unity.com"
     },
+    "io.gs2.csharp.sdk": {
+      "version": "2023.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://upm.gs2.io/npm"
+    },
+    "io.gs2.unity.sdk": {
+      "version": "2023.2.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "io.gs2.csharp.sdk": "2022.9.2"
+      },
+      "url": "https://upm.gs2.io/npm"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

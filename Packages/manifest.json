@@ -10,6 +10,8 @@
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
+    "io.gs2.csharp.sdk": "2023.2.2",
+    "io.gs2.unity.sdk": "2023.2.5",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -41,5 +43,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Game Server Services CloudWeave",
+      "url": "https://upm.gs2.io/npm/",
+      "scopes": [
+        "io.gs2"
+      ]
+    }
+  ]
 }
